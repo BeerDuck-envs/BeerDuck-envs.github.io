@@ -1,0 +1,13 @@
+main:
+  - title: "关于我"
+    url: "/#about-me"
+  - title: "研究成果"
+    url: "/#publications"
+  - title: "科研项目"
+    url: "/#projects"
+  - title: "竞赛荣誉"
+    url: "/#awards"
+  - title: "教育背景"
+    url: "/#education"
+  - title: "简历"
+    url: "/assets/resume.pdf"
