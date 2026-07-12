@@ -34,17 +34,7 @@ author_profile: true
 - 在黑盒场景下有效提升 VLP 模型对抗攻击的可迁移性，并取得迁移性与攻击效率的良好平衡。
 </div></div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Pattern Recognition · Under Review</div><img src='images/500x300.png' alt="Publication illustration" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-**TG-CMA: Trajectory-Guided Cross-Modal Adversarial Attacks with Neighborhood Gradient Estimation**
-
-潘佳阳 · 学生三作 · Pattern Recognition · 中科院一区 TOP
-
-- 围绕轨迹引导跨模态攻击与邻域梯度估计开展方法设计和实验验证，进一步探索高迁移性对抗样本生成机制。
-</div></div>
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">PRCV 2026 · Under Review</div><img src='images/500x300.png' alt="Publication illustration" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">PRCV 2026 · Accepted</div><img src='images/500x300.png' alt="Publication illustration" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **TrajCloak and TrajGuard: Stealthy Patch Attacks and Black-Box Trajectory Detection for Vision-Language-Action Models**
