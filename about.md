@@ -28,7 +28,7 @@ author_profile: true
 
 **Semantic Region-Guided Transferable Attacks on Vision-Language Pretraining Models**
 
-潘佳阳 · 一作 · IEEE Signal Processing Letters · JCR Q2 / CCF C
+Jiayang Pan, Chen Wan\*, Wutao Chen, Lifeng Huang · IEEE Signal Processing Letters · JCR Q2 / CCF C · \*通讯作者
 
 - 提出语义区域引导攻击框架 SRGA，借助外部语义先验识别视觉语义区域，并通过跨模态语义对齐、局部变换与空间加权优化实现协同扰动。
 - 在黑盒场景下有效提升 VLP 模型对抗攻击的可迁移性，并取得迁移性与攻击效率的良好平衡。
@@ -39,7 +39,7 @@ author_profile: true
 
 **TrajCloak and TrajGuard: Stealthy Patch Attacks and Black-Box Trajectory Detection for Vision-Language-Action Models**
 
-潘佳阳 · 一作 · PRCV 2026 · CCF C
+Jiayang Pan, Chen Wan\* · PRCV 2026 · CCF C · \*通讯作者
 
 - 提出面向 VLA 模型的隐秘物理补丁攻击与黑盒轨迹检测框架 TrajCloak 和 TrajGuard，兼顾轨迹隐蔽性与异常运动检测。
 </div></div>
