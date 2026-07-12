@@ -64,7 +64,7 @@ author_profile: true
 
 <span class='anchor' id='awards'></span>
 
-# Honors and Awards
+# Awards
 
 - *2025.08* 2025 RoboCom 睿抗机器人开发者大赛 - 编程设计赛道，全国一等奖。
 - *2026.04* ICPC 国际大学生程序设计竞赛全国邀请赛（深圳），银奖。
