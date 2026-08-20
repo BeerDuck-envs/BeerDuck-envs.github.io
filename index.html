@@ -33,6 +33,10 @@
 /* ══════ Lightbox ══════ */
 .lightbox{position:fixed;inset:0;z-index:9999;background:rgba(0,0,0,.92);display:flex;align-items:center;justify-content:center;flex-direction:column;opacity:0;pointer-events:none;transition:opacity .35s ease;backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px)}.lightbox.open{opacity:1;pointer-events:auto}.lightbox img{max-width:90vw;max-height:80vh;border-radius:6px;box-shadow:0 24px 64px rgba(0,0,0,.55);transform:scale(.9);transition:transform .4s cubic-bezier(.2,.6,.35,1);object-fit:contain}.lightbox.open img{transform:scale(1)}.lightbox-close{position:absolute;top:18px;right:22px;color:#fff;font-size:36px;cursor:pointer;width:50px;height:50px;display:flex;align-items:center;justify-content:center;border-radius:50%;transition:background .2s;line-height:1;user-select:none;z-index:1}.lightbox-close:hover{background:rgba(255,255,255,.08)}.lightbox-nav{position:absolute;top:50%;transform:translateY(-50%);color:#fff;font-size:44px;cursor:pointer;width:54px;height:54px;display:flex;align-items:center;justify-content:center;border-radius:50%;transition:background .2s;user-select:none}.lightbox-nav:hover{background:rgba(255,255,255,.08)}.lightbox-nav.prev{left:14px}.lightbox-nav.next{right:14px}.lightbox-counter{position:absolute;bottom:22px;left:50%;transform:translateX(-50%);color:rgba(255,255,255,.5);font-size:13px;font-family:ui-monospace,monospace;letter-spacing:.06em}
 
+/* ══════ PDF preview ══════ */
+.paper-actions{display:flex;align-items:center;flex-wrap:wrap;gap:12px;margin-top:14px}.pdf-btn{display:inline-flex;align-items:center;gap:6px;padding:8px 15px;border:1px solid var(--blue);color:var(--blue);background:transparent;font:600 13px/1 -apple-system,"Segoe UI","Microsoft YaHei",sans-serif;cursor:pointer;border-radius:4px;transition:background .2s,color .2s}.pdf-btn:hover{background:var(--blue);color:#fff}.pdf-link{font-size:12px;color:var(--muted);border-bottom:1px solid var(--line)}.pdf-link:hover{color:var(--blue);border-color:var(--blue)}
+.pdf-modal{position:fixed;inset:0;z-index:10000;background:rgba(0,0,0,.88);display:flex;flex-direction:column;opacity:0;pointer-events:none;transition:opacity .3s ease}.pdf-modal.open{opacity:1;pointer-events:auto}.pdf-modal-bar{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:13px 20px;background:rgba(0,0,0,.45);border-bottom:1px solid rgba(255,255,255,.08)}.pdf-modal-title{flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;color:#e8ddd0;font-size:14px}.pdf-modal-tools{display:flex;align-items:center;gap:16px;flex-shrink:0}.pdf-modal-open{color:var(--blue);font-size:13px;white-space:nowrap}.pdf-modal-open:hover{color:#fff}.pdf-modal-close{background:none;border:0;color:#fff;font-size:30px;cursor:pointer;line-height:1;padding:0 6px}.pdf-modal-close:hover{opacity:.7}.pdf-modal-frame{flex:1;width:100%;border:0;background:#525659}
+
 .stats{display:grid;grid-template-columns:repeat(3,1fr);margin-top:30px;border-block:1px solid var(--line)}.stats div{padding:14px 12px}.stats div+div{border-left:1px solid var(--line)}.stats b{display:block;color:var(--blue);font:700 26px Georgia,serif}.stats small{color:var(--muted);font-size:11px}h3{margin:6px 0 20px;font:700 30px Georgia,"Microsoft YaHei",serif}.paper{padding:23px 0;border-top:1px solid var(--line)}.paper.feature{display:flex;gap:28px;align-items:flex-start;padding:25px;margin-bottom:15px;border:0;background:var(--light)}.paper.feature .paper-img-stack{flex-shrink:0}.paper.feature .paper-img-stack .paper-img{display:block;width:260px;border-radius:6px;box-shadow:0 2px 8px rgba(0,0,0,.08)}.paper.feature .paper-img-stack .paper-img+.paper-img{margin-top:14px}.paper.feature .paper-body{flex:1;min-width:0}.paper .authors{color:#a39485;font-size:13px;margin:8px 0 16px}.paper .authors b{color:var(--ink);font-weight:700}.meta{color:var(--blue);font:600 10px ui-monospace,monospace;letter-spacing:.05em;text-transform:uppercase}.paper h4{margin:8px 0;font:700 19px/1.45 Georgia,"Microsoft YaHei",serif}.paper p{margin:0;color:#6b5e53;font-size:14px}.timeline,.awards{border-top:1px solid var(--line)}.row{display:grid;grid-template-columns:145px 1fr;gap:18px;padding:16px 0;border-bottom:1px solid var(--line)}.date{color:var(--blue);font:11px ui-monospace,monospace}.row b{display:block;font-size:15px}.row span{color:var(--muted);font-size:13px}.award{display:grid;grid-template-columns:90px 1fr auto;gap:13px;padding:12px 0;border-bottom:1px solid var(--line);font-size:14px}.award strong{color:var(--blue);font-weight:600}footer{padding-top:10px;color:#a39485;font-size:11px}@media(max-width:760px){.shell{display:block;padding:35px 22px}.profile{position:relative;padding-bottom:40px}.profile img{width:94px;height:94px}.hero h2{font-size:42px}.pixel-title{font-size:15px}.carousel{aspect-ratio:4/3}.carousel-arrow{width:34px;height:34px;font-size:18px;opacity:1}.carousel-arrow.prev{left:6px}.carousel-arrow.next{right:6px}.lightbox img{max-width:96vw;max-height:75vh}.lightbox-nav{width:40px;height:40px;font-size:32px}.lightbox-nav.prev{left:4px}.lightbox-nav.next{right:4px}.stats b{font-size:21px}.stats small{font-size:9px}.row,.award{grid-template-columns:1fr;gap:3px}.award strong{margin-top:2px}.paper.feature{flex-direction:column}.paper.feature .paper-img-stack .paper-img{width:100%}section{margin-bottom:40px}}  </style>
 </head>
 <body>
@@ -47,12 +51,22 @@
           </aside>
     <div>
       <section class="hero" id="about"><p class="pixel-title">Hi! I am Beer Duck</p><p class="kicker">01 / ABOUT ME</p><div class="bio"><p class="bio-line">👋 <b>潘佳阳</b>&nbsp;·&nbsp;汕头大学&nbsp;·&nbsp;数据科学与大数据技术&nbsp;·&nbsp;23级本科生</p><p class="bio-line">📷🎮 <b>爱好</b>&nbsp;&nbsp;摄影&nbsp;·&nbsp;旅游&nbsp;·&nbsp;王者荣耀&nbsp;·&nbsp;CSGO&nbsp;·&nbsp;三角洲行动&nbsp;...</p><p class="bio-line">🔬 <b>科研</b>&nbsp;&nbsp;VLP 模型对抗迁移攻击&nbsp;·&nbsp;VLA 模型物理补丁攻击 &amp; 攻击检测</p><p class="motto">「去经历吧，人生不应该一直看着参考书」</p></div><p style="color:#e53e3e;font-weight:700;font-size:15px;margin-top:14px;">🎯 27推免生在线蹲硕导/直博&nbsp;🙋‍♂️&nbsp;27fall</p></section>
-      <section id="research"><p class="kicker">02 / SELECTED RESEARCH</p><h3>研究成果</h3><article class="paper feature"><div class="paper-img-stack"><img class="paper-img" src="images/ours4.png" alt="SRGA Framework"><img class="paper-img" src="images/ours-motivation.png" alt="SRGA Motivation"></div><div class="paper-body"><p class="meta">IEEE SPL · Accepted · JCR Q2 / CCF C</p><h4>Semantic Region-Guided Transferable Attacks on Vision-Language Pretraining Models</h4><p class="authors"><b>Jiayang Pan</b>, Chen Wan<sup>*</sup>, Wutao Chen, Lifeng Huang</p><p>提出语义区域引导攻击框架 SRGA，借助外部语义先验识别视觉语义区域，并通过跨模态语义对齐、局部变换与空间加权优化实现协同扰动，在黑盒场景下提升 VLP 模型对抗攻击的可迁移性。</p></div></article><article class="paper feature"><div class="paper-img-stack"><img class="paper-img" src="images/fig1.png" alt="TrajCloak and TrajGuard Framework"><img class="paper-img" src="images/motivation.png" alt="TrajCloak Motivation"></div><div class="paper-body"><p class="meta">PRCV 2026 · Accepted · CCF C</p><h4>TrajCloak and TrajGuard: Stealthy Patch Attacks and Black-Box Trajectory Detection for VLA Models</h4><p class="authors"><b>Jiayang Pan</b>, Chen Wan<sup>*</sup></p><p>面向 VLA 模型提出隐秘物理补丁攻击与黑盒轨迹检测框架，兼顾轨迹隐蔽性与异常运动检测。</p></div></article></section>
+      <section id="research"><p class="kicker">02 / SELECTED RESEARCH</p><h3>研究成果</h3><article class="paper feature"><div class="paper-img-stack"><img class="paper-img" src="images/ours4.png" alt="SRGA Framework"><img class="paper-img" src="images/ours-motivation.png" alt="SRGA Motivation"></div><div class="paper-body"><p class="meta">IEEE SPL · Accepted · JCR Q2 / CCF C</p><h4>Semantic Region-Guided Transferable Attacks on Vision-Language Pretraining Models</h4><p class="authors"><b>Jiayang Pan</b>, Chen Wan<sup>*</sup>, Wutao Chen, Lifeng Huang</p><p>提出语义区域引导攻击框架 SRGA，借助外部语义先验识别视觉语义区域，并通过跨模态语义对齐、局部变换与空间加权优化实现协同扰动，在黑盒场景下提升 VLP 模型对抗攻击的可迁移性。</p><div class="paper-actions"><button class="pdf-btn" data-pdf="paper/Semantic_Region-Guided_Transferable_Attacks_on_Vision-Language_Pretraining_Models.pdf" data-title="Semantic Region-Guided Transferable Attacks on Vision-Language Pretraining Models">📄 预览 PDF</button><a class="pdf-link" href="paper/Semantic_Region-Guided_Transferable_Attacks_on_Vision-Language_Pretraining_Models.pdf" target="_blank" rel="noopener">↗ 新标签打开</a></div></div></article><article class="paper feature"><div class="paper-img-stack"><img class="paper-img" src="images/fig1.png" alt="TrajCloak and TrajGuard Framework"><img class="paper-img" src="images/motivation.png" alt="TrajCloak Motivation"></div><div class="paper-body"><p class="meta">PRCV 2026 · Accepted · CCF C</p><h4>TrajCloak and TrajGuard: Stealthy Patch Attacks and Black-Box Trajectory Detection for VLA Models</h4><p class="authors"><b>Jiayang Pan</b>, Chen Wan<sup>*</sup></p><p>面向 VLA 模型提出隐秘物理补丁攻击与黑盒轨迹检测框架，兼顾轨迹隐蔽性与异常运动检测。</p><div class="paper-actions"><button class="pdf-btn" data-pdf="paper/TrajCloak_and_TrajGuard_Stealthy_Patch_Attacks_and_Black-Box_Trajectory_Detection_for_Vision-Language-Action_Models.pdf" data-title="TrajCloak and TrajGuard: Stealthy Patch Attacks and Black-Box Trajectory Detection for VLA Models">📄 预览 PDF</button><a class="pdf-link" href="paper/TrajCloak_and_TrajGuard_Stealthy_Patch_Attacks_and_Black-Box_Trajectory_Detection_for_Vision-Language-Action_Models.pdf" target="_blank" rel="noopener">↗ 新标签打开</a></div></div></article></section>
       <section id="awards"><p class="kicker">03 / AWARDS</p><h3>竞赛荣誉</h3><div class="awards"><div class="award"><span class="date">2025.08</span><span>2025 RoboCom 睿抗机器人开发者大赛 — 编程设计赛道</span><strong>全国一等奖</strong></div><div class="award"><span class="date">2026.04</span><span>ICPC 国际大学生程序设计竞赛全国邀请赛（深圳）</span><strong>银奖</strong></div><div class="award"><span class="date">2026.05</span><span>ICPC 国际大学生程序设计竞赛全国邀请赛（南昌）</span><strong>银奖</strong></div><div class="award"><span class="date">2025.08</span><span>第 21 届百度之星程序设计竞赛</span><strong>全国银奖</strong></div><div class="award"><span class="date">2026.04</span><span>2026 中国高校计算机大赛 — 团体程序设计天梯赛（个人）</span><strong>全国银奖</strong></div><div class="award"><span class="date">2025.06</span><span>第 16 届蓝桥杯 C/C++ 程序设计本科 B 组</span><strong>全国二等奖</strong></div><div class="award"><span class="date">2024.08</span><span>2024 RoboCom 睿抗机器人开发者大赛 — 编程设计赛道</span><strong>全国二等奖</strong></div><div class="award"><span class="date">2024.06</span><span>第 15 届蓝桥杯 C/C++ 程序设计本科 B 组</span><strong>全国二等奖</strong></div><div class="award"><span class="date">2024.05</span><span>CCPC 中国大学生程序设计竞赛全国邀请赛（广东）</span><strong>铜奖</strong></div></div></section>
       <section id="photography"><p class="kicker">04 / PHOTOGRAPHY</p><h3>摄影作品</h3><div class="carousel"><div class="carousel-track"><div class="carousel-slide"><img src="PHOTOGRAPHY/thumb/微信图片_2026-07-12_223930_139.jpg" alt="摄影作品" loading="lazy"></div><div class="carousel-slide"><img src="PHOTOGRAPHY/thumb/微信图片_2026-07-12_224001_649.jpg" alt="摄影作品" loading="lazy"></div><div class="carousel-slide"><img src="PHOTOGRAPHY/thumb/微信图片_20260712223836_40_217.jpg" alt="摄影作品" loading="lazy"></div><div class="carousel-slide"><img src="PHOTOGRAPHY/thumb/微信图片_20260712223842_41_217.jpg" alt="摄影作品" loading="lazy"></div><div class="carousel-slide"><img src="PHOTOGRAPHY/thumb/微信图片_20260712223917_42_217.jpg" alt="摄影作品" loading="lazy"></div><div class="carousel-slide"><img src="PHOTOGRAPHY/thumb/微信图片_20260712223957_43_217.jpg" alt="摄影作品" loading="lazy"></div><div class="carousel-slide"><img src="PHOTOGRAPHY/thumb/微信图片_20260712224045_44_217.jpg" alt="摄影作品" loading="lazy"></div><div class="carousel-slide"><img src="PHOTOGRAPHY/thumb/微信图片_20260712224115_45_217.jpg" alt="摄影作品" loading="lazy"></div><div class="carousel-slide"><img src="PHOTOGRAPHY/thumb/微信图片_20260712224122_46_217.jpg" alt="摄影作品" loading="lazy"></div><div class="carousel-slide"><img src="PHOTOGRAPHY/thumb/微信图片_20260712224143_47_217.jpg" alt="摄影作品" loading="lazy"></div></div><button class="carousel-arrow prev" aria-label="上一张">&lsaquo;</button><button class="carousel-arrow next" aria-label="下一张">&rsaquo;</button><div class="carousel-dots"></div><span class="carousel-counter"></span><div class="carousel-progress"></div></div></section>
   <footer>© 2026 JiaYang Pan · Built for research and curiosity.</footer>
     </div>
   </main>
+  <div class="pdf-modal" id="pdfModal" role="dialog" aria-modal="true" aria-label="论文 PDF 预览">
+    <div class="pdf-modal-bar">
+      <span class="pdf-modal-title"></span>
+      <div class="pdf-modal-tools">
+        <a class="pdf-modal-open" href="#" target="_blank" rel="noopener">↗ 新标签打开</a>
+        <button class="pdf-modal-close" aria-label="关闭">&times;</button>
+      </div>
+    </div>
+    <iframe class="pdf-modal-frame" src="" title="论文 PDF 预览" allowfullscreen></iframe>
+  </div>
 <script>
 (function(){
   /* ══════ Carousel ══════ */
@@ -165,7 +179,7 @@
 
   /* ── Keyboard ── */
   document.addEventListener('keydown',function(e){
-    if(document.querySelector('.lightbox.open')) return; /* let lightbox handle */
+    if(document.querySelector('.lightbox.open')||document.querySelector('.pdf-modal.open')) return; /* let lightbox / pdf modal handle */
     if(e.key==='ArrowLeft'){ e.preventDefault(); prev(); }
     if(e.key==='ArrowRight'){ e.preventDefault(); next(); }
   });
@@ -257,6 +271,33 @@
     var dx=e.changedTouches[0].clientX-lbSwipeX0;
     if(Math.abs(dx)>50){ if(dx<0&&lbIdx<total-1) lbOpen(lbIdx+1); else if(dx>0&&lbIdx>0) lbOpen(lbIdx-1); }
     lbSwipeX0=0;
+  });
+
+  /* ══════ PDF preview modal ══════ */
+  var pdfModal = document.getElementById('pdfModal');
+  var pdfFrame = pdfModal.querySelector('.pdf-modal-frame');
+  var pdfTitle = pdfModal.querySelector('.pdf-modal-title');
+  var pdfOpenLink = pdfModal.querySelector('.pdf-modal-open');
+
+  [].slice.call(document.querySelectorAll('.pdf-btn')).forEach(function(btn){
+    btn.addEventListener('click', function(){
+      pdfFrame.src = btn.dataset.pdf;
+      pdfTitle.textContent = btn.dataset.title || '';
+      pdfOpenLink.href = btn.dataset.pdf;
+      pdfModal.classList.add('open');
+      document.body.style.overflow = 'hidden';
+    });
+  });
+
+  function closePdf(){
+    pdfModal.classList.remove('open');
+    pdfFrame.src = '';
+    document.body.style.overflow = '';
+  }
+  pdfModal.querySelector('.pdf-modal-close').addEventListener('click', closePdf);
+  pdfModal.addEventListener('click', function(e){ if(e.target === pdfModal) closePdf(); });
+  document.addEventListener('keydown', function(e){
+    if(e.key === 'Escape' && pdfModal.classList.contains('open')) closePdf();
   });
 })();
 </script>
